@@ -25,7 +25,7 @@ public class FeatureManager {
     /// Namespace for the Features used for registering and reading the Features flags values
     public enum Modules: String {
         case mainApp
-        case commons
+        case basicCommons
         case cuotasModule
     }
 

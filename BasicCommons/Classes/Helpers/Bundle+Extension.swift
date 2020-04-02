@@ -12,7 +12,7 @@ import Foundation
 public extension Bundle {
     // swiftlint:disable identifier_name
     enum Project: String, CaseIterable {
-        case Commons
+        case BasicCommons
         case CuotasModule
 
         internal var identifier: String {
