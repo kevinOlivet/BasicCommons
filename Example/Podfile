@@ -1,0 +1,57 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+# Title generated from here: http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=LIBRARY_NAME
+
+###
+### --- CONFIG ---
+#  ██████╗ ██████╗ ███╗   ███╗███╗   ███╗ ██████╗ ███╗   ██╗███████╗
+# ██╔════╝██╔═══██╗████╗ ████║████╗ ████║██╔═══██╗████╗  ██║██╔════╝
+# ██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║██╔██╗ ██║███████╗
+# ██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║██║╚██╗██║╚════██║
+# ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║╚██████╔╝██║ ╚████║███████║
+#  ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+###
+
+###
+### --- METHODS ---
+###
+
+### Commons dont have dependencies, so no methods are defined here.
+
+###
+#Load commons methods.
+require './configurations/Commons.rb'
+#Load podfile extensions, for post-pre instalations, etc.
+require './configurations/Extensions.rb'
+
+
+color(32) {
+  puts "--------------------------------------------------------------------------------"
+  puts ""
+  puts " ██████╗ ██████╗ ███╗   ███╗███╗   ███╗ ██████╗ ███╗   ██╗███████╗"
+  puts "██╔════╝██╔═══██╗████╗ ████║████╗ ████║██╔═══██╗████╗  ██║██╔════╝"
+  puts "██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║██╔██╗ ██║███████╗"
+  puts "██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║██║╚██╗██║╚════██║"
+  puts "╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║╚██████╔╝██║ ╚████║███████║"
+  puts " ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝"
+  puts ""
+  puts "--------------------------------------------------------------------------------"
+  puts " Executing Pod Install For BasicCommons_Example"
+  puts "--------------------------------------------------------------------------------"
+}
+
+###
+### --- PROCESSING ---
+###
+
+target 'BasicCommons_Example' do
+  pod 'BasicCommons', :path => '../'
+  pod 'AlamofireNetworkActivityLogger', '2.4.0'
+  pod 'AEConsole', '0.7.0'
+  
+  target 'BasicCommons_Tests' do
+    inherit! :search_paths
+  end
+end
