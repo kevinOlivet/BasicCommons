@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Basic Commons Module'
 
   s.description      = <<-DESC
-Used to inject the Commons scene
+Used to inject the BasicCommons scene
                        DESC
 
   s.homepage         = 'https://japanart1234.wixsite.com/jonolivet/ios-developer-info'
@@ -21,7 +21,7 @@ Used to inject the Commons scene
   ]
   
   s.resources = [
-  'Commons/Assets/**/*.{storyboard,xib,xcassets,html,json,pdf,otf,ttf,plist,strings}'
+  'BasicCommons/Assets/**/*.{storyboard,xib,xcassets,html,json,pdf,otf,ttf,plist,strings}'
   ]
 
   s.dependency "AEConsole", "0.7.0"
