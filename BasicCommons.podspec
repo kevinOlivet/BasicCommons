@@ -26,6 +26,8 @@ Used to inject the BasicCommons scene
 
   s.dependency "AEConsole", "0.7.0"
   s.dependency "Alamofire", "4.8.0"
+  s.dependency 'AlamofireImage', '3.5'
+  s.dependency "AlamofireNetworkActivityLogger", "2.4.0"
   s.dependency "OHHTTPStubs/Swift", "8.0.0"
   s.dependency "SwiftKeychainWrapper", "3.4"
 

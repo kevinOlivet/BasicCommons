@@ -30,10 +30,6 @@ extension String {
             .first { $0 != self } ?? self
     }
 
-    public func localized(with args: CVarArg...) -> String {
-        String(format: self.localized, arguments: args)
-    }
-
     public func localized(in whichBundle: Bundle.Project) -> String {
         Bundle.projectBundles
             .filter { $0.bundleIdentifier == whichBundle.identifier }

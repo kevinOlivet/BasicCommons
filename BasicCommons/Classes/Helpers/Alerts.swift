@@ -22,7 +22,7 @@ public class Alerts {
                                                 message: message,
                                                 preferredStyle: .alert)
         if showCancelButton {
-            let dismiss = UIAlertAction(title: "Cancel".localized(),
+            let dismiss = UIAlertAction(title: "Cancel".localized,
                                         style: .cancel,
                                         handler: cancelHandler)
             alertController.addAction(dismiss)
