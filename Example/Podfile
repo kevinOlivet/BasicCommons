@@ -48,8 +48,6 @@ color(32) {
 
 target 'BasicCommons_Example' do
   pod 'BasicCommons', :path => '../'
-  pod 'AlamofireNetworkActivityLogger', '2.4.0'
-  pod 'AEConsole', '0.7.0'
   
   target 'BasicCommons_Tests' do
     inherit! :search_paths
