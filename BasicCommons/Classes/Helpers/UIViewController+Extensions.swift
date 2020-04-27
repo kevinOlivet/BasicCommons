@@ -10,9 +10,9 @@ import UIKit
 
 public extension UIViewController{
 
-    func showModalSpinner() -> UIActivityIndicatorView {
+    func showModalLoadingView() -> UIActivityIndicatorView {
         
-        // User cannot interact with the app while the spinner is visible
+        // User cannot interact with the app while the loadingView is visible
         UIApplication.shared.beginIgnoringInteractionEvents()
 
         var indicator = UIActivityIndicatorView()
@@ -30,7 +30,7 @@ public extension UIViewController{
     }
 
     // Hides the loading indicator and enables user interaction with the app
-    func hideModalSpinner(indicator: UIActivityIndicatorView){
+    func hideModalLoadingView(indicator: UIActivityIndicatorView){
 
         indicator.stopAnimating()
         indicator.isHidden = true

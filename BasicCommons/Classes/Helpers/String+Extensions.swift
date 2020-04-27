@@ -14,6 +14,10 @@ import Foundation
 // swiftlint:disable function_parameter_count
 extension String {
 
+    public var trimmedString: String {
+        trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+    }
+
     // swiftlint:disable localized_not_NSLocalized
     public var localized: String {
         Bundle.projectBundles

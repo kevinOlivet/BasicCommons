@@ -1,6 +1,6 @@
 //
 //  HTTPStatusCodes.swift
-//  Commons
+//  BasicCommons
 //
 //  Copyright © 2020 Jon Olivet. All rights reserved.
 //

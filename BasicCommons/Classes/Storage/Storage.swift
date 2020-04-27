@@ -1,8 +1,8 @@
 //
 //  Storage.swift
-//  Commons
+//  BasicCommons
 //
-//  Copyright © 2019 Banco de Crédito e Inversiones. All rights reserved.
+//  Copyright © 2019 Jon Olivet
 //
 
 import SwiftKeychainWrapper
