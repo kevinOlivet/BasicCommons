@@ -56,5 +56,5 @@ public class NumericValidation: TextValidationProtocol {
     
     public var regExFindMatchString: String = "^[0-9]{0,6}"
     
-    public var validationMessage: String = "You've exceeded the limit"
+    public var validationMessage: String = "You haven't entered a valid number.\nCome on now."
 }

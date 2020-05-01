@@ -53,3 +53,5 @@ target 'BasicCommons_Example' do
     inherit! :search_paths
   end
 end
+
+use_modular_headers!
