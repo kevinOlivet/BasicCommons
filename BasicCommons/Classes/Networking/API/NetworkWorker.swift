@@ -5,7 +5,6 @@
 //  Copyright © 2020 Jon Olivet. All rights reserved.
 //
 
-import AELog
 import Alamofire
 import Foundation
 
@@ -123,8 +122,7 @@ final class NetworkWorker: AuthenticatedAPI, NetworkRequestable {
                 self?.onComplete(response: response, success: success, failure: failure)
             },
             onFailure: { error, code in
-                print(error.localizedDescription)
-                aelog("Error  \(error.localizedDescription) Code: \(code)")
+                debugPrint(error.localizedDescription)
             }
         )
     }
@@ -147,8 +145,7 @@ final class NetworkWorker: AuthenticatedAPI, NetworkRequestable {
                 self?.onComplete(response: response, success: success, failure: failure)
             },
             onFailure: { error, code in
-                print(error.localizedDescription)
-                aelog("Error  \(error.localizedDescription) Code: \(code)")
+                debugPrint(error.localizedDescription)
             }
         )
     }
@@ -171,8 +168,7 @@ final class NetworkWorker: AuthenticatedAPI, NetworkRequestable {
                 self?.onComplete(response: response, success: success, failure: failure)
             },
             onFailure: { error, code in
-                print(error.localizedDescription)
-                aelog("Error  \(error.localizedDescription) Code: \(code)")
+                debugPrint(error.localizedDescription)
             }
         )
     }
@@ -196,8 +192,7 @@ final class NetworkWorker: AuthenticatedAPI, NetworkRequestable {
                 self?.onComplete(response: response, success: success, failure: failure)
             },
             onFailure: { error, code in
-                print(error.localizedDescription)
-                aelog("Error  \(error.localizedDescription) Code: \(code)")
+                debugPrint(error.localizedDescription)
             }
         )
     }
