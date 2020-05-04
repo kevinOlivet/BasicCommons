@@ -5,3 +5,29 @@
   Created by Jon Olivet on 3/29/20.
   
 */
+
+// MARK: - BasicCommons
+
+CANCEL = "Cancel";
+CLOSE_SESSION = "Close Session";
+
+// MARK: - For BasicUIElements
+CLOSE = "CLOSE";
+UNDERSTOOD = "UNDERSTOOD";
+
+// AmountTextField
+TF_INVALID_FORMAT = "The format is invalid, enter only numbers";
+TF_OVER_MAXIMUM = "The daily amount permitted is ";
+TF_BELOW_MINIMUM = "The minimal amount permitted is ";
+TF_OVER_AVAIALBE = "The amount entered surpasses what is availavle";
+
+// BaseViewController
+LOADING = "Loading";
+WAIT = "Wait a moment";
+INTERNET_ERROR_TITLE = "Internet Error";
+SERVICE_ERROR_TITLE = "Service Error";
+INTERNET_ERROR_MESSAGE = "Please check your connection and try again.";
+SERVICE_ERROR_MESSAGE = "We are experiencing a momentary problem. \nPlease try again.";
+RETRY = "Retry";
+CLOSE = "Close";
+CHANGE = "CHANGE";

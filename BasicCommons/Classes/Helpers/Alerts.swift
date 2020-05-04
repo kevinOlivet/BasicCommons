@@ -22,7 +22,7 @@ public class Alerts {
                                                 message: message,
                                                 preferredStyle: .alert)
         if showCancelButton {
-            let dismiss = UIAlertAction(title: "Cancel".localized,
+            let dismiss = UIAlertAction(title: "CANCEL".localized,
                                         style: .cancel,
                                         handler: cancelHandler)
             alertController.addAction(dismiss)
@@ -42,8 +42,8 @@ public class Alerts {
         vc: UIViewController, // swiftlint:disable:this identifier_name
         handler: @escaping (UIAlertAction) -> Void) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
-        let dismiss = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
-        let exit = UIAlertAction(title: "Cerrar Sesión", style: .default, handler: handler)
+        let dismiss = UIAlertAction(title: "CANCEL".localized, style: .cancel, handler: nil)
+        let exit = UIAlertAction(title: "CLOSE_SESSION".localized, style: .default, handler: handler)
         alertController.addAction(dismiss)
         alertController.addAction(exit)
         vc.present(alertController, animated: true, completion: nil)
