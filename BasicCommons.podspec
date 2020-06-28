@@ -13,7 +13,7 @@ Used to inject the BasicCommons scene
   s.source           = { :git => 'ssh://git@github.com/kevinOlivet/BasicCommons.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
 
   s.source_files = [
     'BasicCommons/Classes/**/*',
@@ -25,7 +25,6 @@ Used to inject the BasicCommons scene
   ]
 
   s.dependency "Alamofire", "4.8.0"
-  s.dependency 'AlamofireImage', '3.5'
   s.dependency "AlamofireNetworkActivityLogger", "2.4.0"
   s.dependency "OHHTTPStubs/Swift", "8.0.0"
   s.dependency "SwiftKeychainWrapper", "3.4"
