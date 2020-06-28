@@ -26,7 +26,7 @@ public class FeatureManager {
     public enum Modules: String {
         case mainApp
         case basicCommons
-        case cuotasModule
+        case transbank
     }
 
     private var featureFlags: [Scheme: [Module: [Feature: Any]]]

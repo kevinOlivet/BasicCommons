@@ -13,7 +13,7 @@ public extension Bundle {
     // swiftlint:disable identifier_name
     enum Project: String, CaseIterable {
         case BasicCommons
-        case CuotasModule
+        case Transbank
 
         internal var identifier: String {
             "org.cocoapods.\(self.rawValue)"
