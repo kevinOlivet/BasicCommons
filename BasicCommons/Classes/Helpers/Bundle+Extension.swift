@@ -2,8 +2,6 @@
 //  Bundle+Extension.swift
 //  BasicCommons
 //
-//  Created by Jon Olivet on 8/28/18.
-//  Copyright © 2018 Jon Olivet. All rights reserved.
 //
 
 import Foundation
@@ -13,7 +11,7 @@ public extension Bundle {
     // swiftlint:disable identifier_name
     enum Project: String, CaseIterable {
         case BasicCommons
-        case CuotasModule
+        case BankUnited
 
         internal var identifier: String {
             "org.cocoapods.\(self.rawValue)"

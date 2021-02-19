@@ -2,7 +2,7 @@
 //  Configuration.App.swift
 //  AppConfiguration
 //
-//  Copyright © 2020 Jon Olivet. All rights reserved.
+//  Copyright © Jon Olivet. All rights reserved.
 //
 
 //swiftlint:disable missing_docs

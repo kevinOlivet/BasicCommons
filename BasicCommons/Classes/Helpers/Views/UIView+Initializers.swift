@@ -2,7 +2,7 @@
 //  UIView.swift
 //  Commons
 //
-//  Copyright © 2019 Jon Olivet
+//  Copyright © Jon Olivet
 //
 
 import UIKit

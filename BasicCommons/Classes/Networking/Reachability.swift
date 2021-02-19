@@ -2,7 +2,6 @@
 //  Reachability.swift
 //  BasicCommons
 //
-//  Created by Jon Olivet on 4/6/20.
 //
 
 import SystemConfiguration

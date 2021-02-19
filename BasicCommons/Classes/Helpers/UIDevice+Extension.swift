@@ -2,7 +2,7 @@
 //  UIDeviceExtension.swift
 //  Commons
 //
-//  Copyright © 2019 Jon Olivet
+//  Copyright © Jon Olivet
 //
 
 // swiftlint:disable explicit_init identifier_name

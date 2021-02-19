@@ -2,7 +2,7 @@
 //  NetworkWorker.swift
 //  BasicCommons
 //
-//  Copyright © 2020 Jon Olivet. All rights reserved.
+//  Copyright © Jon Olivet. All rights reserved.
 //
 
 import Alamofire

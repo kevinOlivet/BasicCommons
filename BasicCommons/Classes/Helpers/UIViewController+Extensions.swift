@@ -2,8 +2,6 @@
 //  UIViewController+Extensions.swift
 //  BasicCommons
 //
-//  Created by Jon Olivet on 8/29/18.
-//  Copyright © 2018 Jon Olivet. All rights reserved.
 //
 
 import UIKit
