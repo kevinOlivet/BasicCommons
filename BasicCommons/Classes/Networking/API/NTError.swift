@@ -21,6 +21,7 @@ public enum ErrorCode: Int {
     case noInternetConection                            = -1011
     case noTokenFound                                   = -1012
     case unknown                                        = -1
+    case tooManyRequests                                = 429
 }
 
 /// Describes an networking layer error

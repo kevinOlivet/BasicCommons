@@ -7,7 +7,6 @@
 */
 
 // MARK: - BasicCommons
-
 CANCEL = "Cancel";
 CLOSE_SESSION = "Close Session";
 
@@ -26,8 +25,10 @@ LOADING = "Loading";
 WAIT = "Wait a moment";
 INTERNET_ERROR_TITLE = "Internet Error";
 SERVICE_ERROR_TITLE = "Service Error";
+TOO_MANY_REQUESTS_TITLE = "Too Many Requests";
 INTERNET_ERROR_MESSAGE = "Please check your connection and try again.";
 SERVICE_ERROR_MESSAGE = "We are experiencing a momentary problem. \nPlease try again.";
+TOO_MANY_REQUESTS_MESSAGE = "Close and give it a little rest, eh.";
 RETRY = "Retry";
 CLOSE = "Close";
 CHANGE = "CHANGE";

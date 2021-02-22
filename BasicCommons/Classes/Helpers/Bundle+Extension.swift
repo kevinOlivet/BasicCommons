@@ -11,6 +11,7 @@ public extension Bundle {
     // swiftlint:disable identifier_name
     enum Project: String, CaseIterable {
         case BasicCommons
+        case BankUnited
         case CuotasModule
 
         internal var identifier: String {

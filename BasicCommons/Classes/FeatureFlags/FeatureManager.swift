@@ -2,7 +2,7 @@
 //  FeatureManager.swift
 //  BasicCommons
 //
-//  Copyright © 2020 Jon Olivet. All rights reserved.
+//  Copyright © Jon Olivet. All rights reserved.
 //
 
 import Foundation
@@ -26,6 +26,7 @@ public class FeatureManager {
     public enum Modules: String {
         case mainApp
         case basicCommons
+        case bankUnited
         case cuotasModule
     }
 
